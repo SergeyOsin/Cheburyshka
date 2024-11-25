@@ -7,5 +7,4 @@ public:
 private:
 	int x3, y3;
 	int x4, y4;
-	COLORREF bc, wc;
 };

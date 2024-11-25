@@ -1,18 +1,16 @@
 #include "Square.h"
 #include "Figure.h"
-Square::Square(Point t, int a, COLORREF b, COLORREF w) : bc(b), wc(w),
-Figure(t, a, b, w) {
+Square::Square(Point _t, int r, COLORREF ñ1, COLORREF ñ2) : bc(b), wc(w),
+Figure(_t, r, c1, c2) {
     x3 = t.x, y3 = t.y;
-    x4 = t.x + a, y4 = t.y + a;
+    x4 = t.x + r, y4 = t.y + r;
 }
 
 
 
 void Square::draw() {
-
-    cout << "Square " << x3 << " " << y3 << " " << x4 << " " << y4 << '\n';
-    HPEN p = CreatePen(PS_SOLID, 2, bc);
-    HBRUSH b = CreateSolidBrush(wc);
+    HPEN p = CreatePen(PS_SOLID, 2, c1);
+    HBRUSH b = CreateSolidBrush(c2);
     GetClientRect(hwnd, &rt);
     SelectObject(hdc, p);
     SelectObject(hdc, b);
