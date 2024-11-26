@@ -2,7 +2,7 @@
 
 Triangle::Triangle(Point t, Point _t1, Point _t2, COLORREF _brush, COLORREF _pen): 
 
-	Figure(t, (_t1.x - center.x), _brush, _pen), t1(_t1), t2(_t2) {}
+	Figure(t, (_t1.y - t.y), _brush, _pen), t1(_t1), t2(_t2) {}
 
 void Triangle::draw() {
 	HPEN pen = CreatePen(PS_SOLID, 2, color_2);
