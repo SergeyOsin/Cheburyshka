@@ -130,6 +130,7 @@
     <ClCompile Include="Cheburyshka.cpp" />
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="Head.cpp" />
     <ClCompile Include="Octagon.cpp" />
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="Triangle.cpp" />
@@ -137,6 +138,7 @@
   <ItemGroup>
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Figure.h" />
+    <ClInclude Include="Head.h" />
     <ClInclude Include="Octagon.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="Triangle.h" />
