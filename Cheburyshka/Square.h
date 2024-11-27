@@ -2,9 +2,6 @@
 #include "Figure.h"
 class Square : public Figure {
 public:
-	Square(Point t, int a, COLORREF b, COLORREF);
+	Square(Point _t, int r, COLORREF c1, COLORREF c2);
 	void draw() override;
-private:
-	int x3, y3;
-	int x4, y4;
 };

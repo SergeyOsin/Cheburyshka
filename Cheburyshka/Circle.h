@@ -1,5 +1,5 @@
 #pragma once
-#include "Set.h" 
+#include "Figure.h"
 
 
 class Circle : public Figure {

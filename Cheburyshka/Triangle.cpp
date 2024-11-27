@@ -11,7 +11,6 @@ void Triangle::draw() {
 	SelectObject(hdc, brush);
 	POINT points[] = { {center.x, center.y}, {t1.x, t1.y}, {t2.x, t2.y} };
 	Polygon(hdc, points, 3);
-
 	DeleteObject(pen);
 	DeleteObject(brush);
 }
