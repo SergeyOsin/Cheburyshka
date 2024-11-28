@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Body.cpp" />
     <ClCompile Include="Cheburyshka.cpp" />
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Figure.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Body.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Figure.h" />
     <ClInclude Include="Octagon.h" />
